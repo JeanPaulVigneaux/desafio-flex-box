@@ -1,0 +1,44 @@
+.container{display: flex;}
+
+.lista {display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+list-style-type: none;
+min-height: 100vh;}
+h6{display: inline-block;}
+
+ul{padding-inline-start: 0px;}
+
+.menu{
+    width: 30%;
+    background-color: rgb(17, 192, 192);}
+
+button{
+    width: 60%; 
+    background-color: blueviolet; 
+    color: aliceblue;
+    margin-top: 10%;
+    margin-bottom: 10%;}    
+
+.menu li{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;}
+
+.menu img{width: 20%; border-radius: 100px;}
+
+.content img{
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    width: 26%}
+
+.content{
+    width: 100%; 
+    background-color: beige;
+    padding-top: 20%;
+    padding-left: 33%;}
+
+ i{margin-left: 15%; color: brown;}   
